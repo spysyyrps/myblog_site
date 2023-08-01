@@ -3,7 +3,7 @@
     float: left;
     justify-content: flex-start;
     align-items: center;
-    border: 1px groove ;
+    /* border: 1px groove ; */
     height: 100vh; /* 设置容器高度以填充整个视口 */
     position: sticky; /* 添加固定定位 */
     left: 100px; /* 将容器固定到页面最左边 */
