@@ -1,9 +1,13 @@
 ---
 layout: base
+common-js:
+- "/assets/js/toc.js"
 ---
-<!-- {% include toc.html html=content %} -->
-{% include header.html type="post" %}
 
+{% include header.html type="post" %}
+<div class="toc_container">
+  {% include toc.html html=content class="toc_list" anchor_class="toc_text"  %}
+</div>
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">

@@ -1,0 +1,29 @@
+.toc_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px groove ;
+    height: 100vh; /* 设置容器高度以填充整个视口 */
+    position: fixed; /* 添加固定定位 */
+    left: 100px; /* 将容器固定到页面最左边 */
+    top: 30%; /* 将容器垂直居中 */
+    transform: translateY(-50%); /* 调整垂直偏移量以实现垂直居中 */
+    width: 300px; /* 设置容器宽度 */
+    height: auto; /*设置容器高度*/
+    background-color: rgb(227, 226, 226);
+    padding-top: 20px; /* 添加内部内容的 padding */
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 4px 4px 8px rgba(87, 85, 85, 0.3); /* 添加阴影效果 */
+}
+
+.toc_text{
+    color: black;
+    text-decoration: none;
+}
+
+.toc_text:hover{
+    text-decoration: none;
+}
+
