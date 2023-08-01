@@ -288,6 +288,7 @@ exclude:
   - screenshot.png
   - docs/
 
+url : "https://blog.naughtyfox.top"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
