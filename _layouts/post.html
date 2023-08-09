@@ -4,7 +4,7 @@ layout: base
 
 {% include header.html type="post" %}
 <div class="toc_container">
-  {% include toc.html html=content class="toc_list" anchor_class="toc_text"  %}
+  {% include toc.html html=content class="toc_list" anchor_class="toc_text"  sanitize=true%}
 </div>
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">

@@ -7,7 +7,7 @@
     height: 100vh; /* 设置容器高度以填充整个视口 */
     position: sticky; /* 添加固定定位 */
     left: 100px; /* 将容器固定到页面最左边 */
-    top: 30%; /* 将容器垂直居中 */
+    top: 50%; /* 将容器垂直居中 */
     transform: translateY(-50%); /*调整垂直偏移量以实现垂直居中*/
     width: 300px; /* 设置容器宽度 */
     height: auto; /*设置容器高度*/
